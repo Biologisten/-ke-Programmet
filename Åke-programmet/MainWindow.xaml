@@ -5,69 +5,145 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Åke_programmet"
         mc:Ignorable="d"
-        Title="Åkes Program" Width="1680" Height="1200" WindowStartupLocation="CenterScreen">
+        Title="Åkes Program" WindowStartupLocation="CenterScreen" Background="#FF34495E" MinWidth="800" MinHeight="600" Width="800" Height="600">
 
-    <StackPanel Background="DarkGray">
-
-        <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
-            <Label Background="WhiteSmoke" Content="Åke #"/>
-            <Label Background="WhiteSmoke" Content="Produkt Namn" />
-            <Label Background="WhiteSmoke" Content="Produkt SAP" />
-            <Label Background="WhiteSmoke" Content="Sats # SAP" />
-            <Label Background="WhiteSmoke" Content="Order #" />
+    <Grid>
+        <StackPanel>
+            <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+                <Label Background="#FF6C7A89" Content="Åke #" Foreground="Black" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <Label Background="#FF6C7A89" Content="Produkt Namn" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <Label Background="#FF6C7A89" Content="Produkt SAP" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <Label Background="#FF6C7A89" Content="Sats # SAP" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <Label Background="#FF6C7A89" Content="Order #" HorizontalContentAlignment="Center" />
+            </StackPanel>
+            <StackPanel Margin="10 -1 0 0" Orientation="Horizontal">
+                <TextBox Padding="4" Height="26" Width="41" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="88" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="NAMN14553" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="77" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="67" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="51" Background="#FFD2D7D3" BorderThickness="0" Text="123" HorizontalContentAlignment="Center" />
+            </StackPanel>
+            <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+                <Label Background="#FF6C7A89" Content="J1" Width="64" HorizontalAlignment="Left" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" />
+                <Label Background="#FF6C7A89" Content="J2" Width="64" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" />
+                <Label Background="#FF6C7A89" Content="J3" Width="64" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" />
+                <Label Background="#FF6C7A89" Content="J4" Width="64" HorizontalContentAlignment="Center" />
+            </StackPanel>
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
+                <TextBox Padding="4" Height="26" Width="32" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="32" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="32" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="32" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="32" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="32" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="32" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="32" Background="#FFD2D7D3" BorderThickness="0" Text="123" HorizontalContentAlignment="Center" />
+            </StackPanel>
+            <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+                <Label Background="#FF6C7A89" Content="N1" Width="64" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0"/>
+                <Label Background="#FF6C7A89" Content="N2" Width="64" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" />
+                <Label Background="#FF6C7A89" Content="N3" Width="64" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" />
+                <Label Background="#FF6C7A89" Content="N4" Width="64" HorizontalContentAlignment="Center" BorderThickness="0" />
+            </StackPanel>
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
+                <TextBox Padding="4" Height="26" Width="32" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="32" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="32" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="32" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="32" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="32" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="32" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="32" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+            </StackPanel>
+            <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+                <Label Background="#FF6C7A89" Content="D" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" Width="64"/>
+                <Label Background="#FF6C7A89" Content="DFJ" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" Width="64" />
+                <Label Background="#FF6C7A89" Content="V1" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" Width="64" />
+                <Label Background="#FF6C7A89" Content="V1FJ" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" Width="64" />
+                <Label Background="#FF6C7A89" Content="G1" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" Width="64" />
+                <Label Background="#FF6C7A89" Content="G1FJ" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" Width="64" />
+                <Label Background="#FF6C7A89" Content="PH" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" Width="64" />
+                <Label Background="#FF6C7A89" Content="PHFJ" HorizontalContentAlignment="Center" BorderThickness="0" Width="64" />
+            </StackPanel>
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+            </StackPanel>
+            <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+                <Label Background="#FF6C7A89" Content="V2" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0"/>
+                <Label Background="#FF6C7A89" Content="V2FJ" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
+                <Label Background="#FF6C7A89" Content="T" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
+                <Label Background="#FF6C7A89" Content="TFJ" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
+                <Label Background="#FF6C7A89" Content="B" HorizontalContentAlignment="Center" Width="64" />
+            </StackPanel>
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center"/>
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+            </StackPanel>
+            <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+                <Label Background="#FF6C7A89" Content="DE" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0"/>
+                <Label Background="#FF6C7A89" Content="DL" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
+                <Label Background="#FF6C7A89" Content="DA" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
+                <Label Background="#FF6C7A89" Content="DB" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
+                <Label Background="#FF6C7A89" Content="FST" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
+                <Label Background="#FF6C7A89" Content="FSTFJ" HorizontalContentAlignment="Center" Width="64" />
+            </StackPanel>
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+            </StackPanel>
+            <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+                <Label Background="#FF6C7A89" Content="D1" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0"/>
+                <Label Background="#FF6C7A89" Content="D2" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
+                <Label Background="#FF6C7A89" Content="Satsvikt" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
+                <Label Background="#FF6C7A89" Content="Satsvolym" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" />
+                <Label Background="#FF6C7A89" Content="Godkännandedatum" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" />
+                <Label Background="#FF6C7A89" Content="Tank" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
+                <Label Background="#FF6C7A89" Content="J" HorizontalContentAlignment="Center" Width="64" />
+            </StackPanel>
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="120" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+            </StackPanel>
+            <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+                <Label Background="#FF6C7A89" Content="N" HorizontalContentAlignment="Center" Width="64"/>
+                <Label Background="#FF6C7A89" Content="Tillverkningstid" HorizontalContentAlignment="Center" />
+                <Label Background="#FF6C7A89" Content="Tid på Labb" HorizontalContentAlignment="Center" />
+                <Label Background="#FF6C7A89" Content="Anmärkningar" HorizontalContentAlignment="Center" />
+            </StackPanel>
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
+                <TextBox Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="90" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="85" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+            </StackPanel>
         </StackPanel>
-        <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
-            <Label Background="WhiteSmoke" Content="J1"/>
-            <Label Background="WhiteSmoke" Content="J2" />
-            <Label Background="WhiteSmoke" Content="J3" />
-            <Label Background="WhiteSmoke" Content="J4" />
-        </StackPanel>
-        <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
-            <Label Background="WhiteSmoke" Content="N1"/>
-            <Label Background="WhiteSmoke" Content="N2" />
-            <Label Background="WhiteSmoke" Content="N3" />
-            <Label Background="WhiteSmoke" Content="N4" />
-        </StackPanel>
-        <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
-            <Label Background="WhiteSmoke" Content="D"/>
-            <Label Background="WhiteSmoke" Content="DFJ" />
-            <Label Background="WhiteSmoke" Content="V1" />
-            <Label Background="WhiteSmoke" Content="V1FJ" />
-            <Label Background="WhiteSmoke" Content="G1" />
-            <Label Background="WhiteSmoke" Content="G1FJ" />
-            <Label Background="WhiteSmoke" Content="PH" />
-            <Label Background="WhiteSmoke" Content="PHFJ" />
-        </StackPanel>
-        <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
-            <Label Background="WhiteSmoke" Content="V2"/>
-            <Label Background="WhiteSmoke" Content="V2FJ" />
-            <Label Background="WhiteSmoke" Content="T" />
-            <Label Background="WhiteSmoke" Content="TFJ" />
-            <Label Background="WhiteSmoke" Content="B" />
-        </StackPanel>
-        <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
-            <Label Background="WhiteSmoke" Content="DE"/>
-            <Label Background="WhiteSmoke" Content="DL" />
-            <Label Background="WhiteSmoke" Content="DA" />
-            <Label Background="WhiteSmoke" Content="DB" />
-            <Label Background="WhiteSmoke" Content="FST" />
-            <Label Background="WhiteSmoke" Content="FSTFJ" />
-        </StackPanel>
-        <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
-            <Label Background="WhiteSmoke" Content="D1"/>
-            <Label Background="WhiteSmoke" Content="D2" />
-            <Label Background="WhiteSmoke" Content="Satsvikt" />
-            <Label Background="WhiteSmoke" Content="Satsvolym" />
-            <Label Background="WhiteSmoke" Content="Godkännandedatum" />
-            <Label Background="WhiteSmoke" Content="Tank" />
-            <Label Background="WhiteSmoke" Content="J" />
-        </StackPanel>
-        <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
-            <Label Background="WhiteSmoke" Content="N"/>
-            <Label Background="WhiteSmoke" Content="Tillverkningstid" />
-            <Label Background="WhiteSmoke" Content="Tid på Labb" />
-            <Label Background="WhiteSmoke" Content="Anmärkningar" />
-        </StackPanel>
-
-    </StackPanel>
+        <Button Content="Godkänn" HorizontalAlignment="Left" Margin="340,515,0,0" VerticalAlignment="Top" Width="120" Height="32" />
+        <ListView Margin="576,28,0,0" VerticalAlignment="Top" Height="290" HorizontalAlignment="Left" Width="190">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="SAP Order #" Width="100" />
+                    <GridViewColumn Header="Åke #" Width="85" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
 </Window>
