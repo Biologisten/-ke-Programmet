@@ -1,0 +1,73 @@
+﻿<Window x:Class="Åke_programmet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Åke_programmet"
+        mc:Ignorable="d"
+        Title="Åkes Program" Width="1680" Height="1200" WindowStartupLocation="CenterScreen">
+
+    <StackPanel Background="DarkGray">
+
+        <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+            <Label Background="WhiteSmoke" Content="Åke #"/>
+            <Label Background="WhiteSmoke" Content="Produkt Namn" />
+            <Label Background="WhiteSmoke" Content="Produkt SAP" />
+            <Label Background="WhiteSmoke" Content="Sats # SAP" />
+            <Label Background="WhiteSmoke" Content="Order #" />
+        </StackPanel>
+        <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+            <Label Background="WhiteSmoke" Content="J1"/>
+            <Label Background="WhiteSmoke" Content="J2" />
+            <Label Background="WhiteSmoke" Content="J3" />
+            <Label Background="WhiteSmoke" Content="J4" />
+        </StackPanel>
+        <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+            <Label Background="WhiteSmoke" Content="N1"/>
+            <Label Background="WhiteSmoke" Content="N2" />
+            <Label Background="WhiteSmoke" Content="N3" />
+            <Label Background="WhiteSmoke" Content="N4" />
+        </StackPanel>
+        <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+            <Label Background="WhiteSmoke" Content="D"/>
+            <Label Background="WhiteSmoke" Content="DFJ" />
+            <Label Background="WhiteSmoke" Content="V1" />
+            <Label Background="WhiteSmoke" Content="V1FJ" />
+            <Label Background="WhiteSmoke" Content="G1" />
+            <Label Background="WhiteSmoke" Content="G1FJ" />
+            <Label Background="WhiteSmoke" Content="PH" />
+            <Label Background="WhiteSmoke" Content="PHFJ" />
+        </StackPanel>
+        <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+            <Label Background="WhiteSmoke" Content="V2"/>
+            <Label Background="WhiteSmoke" Content="V2FJ" />
+            <Label Background="WhiteSmoke" Content="T" />
+            <Label Background="WhiteSmoke" Content="TFJ" />
+            <Label Background="WhiteSmoke" Content="B" />
+        </StackPanel>
+        <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+            <Label Background="WhiteSmoke" Content="DE"/>
+            <Label Background="WhiteSmoke" Content="DL" />
+            <Label Background="WhiteSmoke" Content="DA" />
+            <Label Background="WhiteSmoke" Content="DB" />
+            <Label Background="WhiteSmoke" Content="FST" />
+            <Label Background="WhiteSmoke" Content="FSTFJ" />
+        </StackPanel>
+        <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+            <Label Background="WhiteSmoke" Content="D1"/>
+            <Label Background="WhiteSmoke" Content="D2" />
+            <Label Background="WhiteSmoke" Content="Satsvikt" />
+            <Label Background="WhiteSmoke" Content="Satsvolym" />
+            <Label Background="WhiteSmoke" Content="Godkännandedatum" />
+            <Label Background="WhiteSmoke" Content="Tank" />
+            <Label Background="WhiteSmoke" Content="J" />
+        </StackPanel>
+        <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+            <Label Background="WhiteSmoke" Content="N"/>
+            <Label Background="WhiteSmoke" Content="Tillverkningstid" />
+            <Label Background="WhiteSmoke" Content="Tid på Labb" />
+            <Label Background="WhiteSmoke" Content="Anmärkningar" />
+        </StackPanel>
+
+    </StackPanel>
+</Window>
