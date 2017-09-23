@@ -1,0 +1,15 @@
+D:\GitKraken Repo\Åke-programmet\Åke-programmet\bin\Debug\Åke-programmet.exe.config
+D:\GitKraken Repo\Åke-programmet\Åke-programmet\bin\Debug\Åke-programmet.exe
+D:\GitKraken Repo\Åke-programmet\Åke-programmet\bin\Debug\Åke-programmet.pdb
+D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\Åke-programmet.csprojResolveAssemblyReference.cache
+D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\MainWindow.g.cs
+D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\App.g.cs
+D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\Åke-programmet_MarkupCompile.cache
+D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\Åke-programmet_MarkupCompile.lref
+D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\MainWindow.baml
+D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\Åke-programmet.g.resources
+D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\Åke_programmet.Properties.Resources.resources
+D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\Åke-programmet.csproj.GenerateResource.Cache
+D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\Åke-programmet.csproj.CoreCompileInputs.cache
+D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\Åke-programmet.exe
+D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\Åke-programmet.pdb
