@@ -9,19 +9,21 @@
 
     <Grid>
         <StackPanel>
-            <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
-                <Label Background="#FF6C7A89" Content="Åke #" Foreground="Black" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
-                <Label Background="#FF6C7A89" Content="Produkt Namn" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
-                <Label Background="#FF6C7A89" Content="Produkt SAP" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
-                <Label Background="#FF6C7A89" Content="Sats # SAP" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
-                <Label Background="#FF6C7A89" Content="Order #" HorizontalContentAlignment="Center" />
+            <StackPanel Margin="10,10,0,0" Orientation="Horizontal">
+                <Label Background="#FF6C7A89" Content="SATSNUM" Foreground="Black" BorderThickness="0,0,3,0" />
+                <Label Background="#FF6C7A89" Content="PRODUKTNAMN" BorderThickness="0,0,3,0" />
+                <Label Background="#FF6C7A89" Content="PRODUKTNUMMER" BorderThickness="0,0,3,0" />
+                <Label Background="#FF6C7A89" Content="KULÖR" BorderThickness="0,0,3,0" />
+                <Label Background="#FF6C7A89" Content="SAPNUM" BorderThickness="0,0,3,0" />
+                <Label Background="#FF6C7A89" Content="SAPSATSNUMMER" BorderThickness="0,0,3,0" />
             </StackPanel>
             <StackPanel Margin="10 -1 0 0" Orientation="Horizontal">
-                <TextBox Padding="4" Height="26" Width="41" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox Padding="4" Height="26" Width="88" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="NAMN14553" HorizontalContentAlignment="Center" />
-                <TextBox Padding="4" Height="26" Width="77" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox Padding="4" Height="26" Width="67" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox Padding="4" Height="26" Width="51" Background="#FFD2D7D3" BorderThickness="0" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="65" Background="#FFD2D7D3" BorderThickness="3,0,1.5,3" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="102" Background="#FFD2D7D3" BorderThickness="1.5,0,1.5,3" Text="NAMN14553" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="118" Background="#FFD2D7D3" BorderThickness="1.5,0,1.5,3" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="50" Background="#FFD2D7D3" BorderThickness="1.5,0,1.5,3" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="62" Background="#FFD2D7D3" BorderThickness="1.5,0,1.5,3" Text="123" HorizontalContentAlignment="Center" />
+                <TextBox Padding="4" Height="26" Width="112" Background="#FFD2D7D3" BorderThickness="1.5,0,3,3" Text="123" HorizontalContentAlignment="Center" />
             </StackPanel>
             <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
                 <Label Background="#FF6C7A89" Content="J1" Width="64" HorizontalAlignment="Left" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" />
@@ -137,11 +139,18 @@
             </StackPanel>
         </StackPanel>
         <Button Content="Godkänn" HorizontalAlignment="Left" Margin="340,515,0,0" VerticalAlignment="Top" Width="120" Height="32" />
-        <ListView Margin="576,28,0,0" VerticalAlignment="Top" Height="290" HorizontalAlignment="Left" Width="190">
+        <ListView x:Name="Listview" Margin="576,28,0,0" VerticalAlignment="Top" Height="290" HorizontalAlignment="Left" Width="190" Background="#FFD2D7D3">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="SAP Order #" Width="100" />
-                    <GridViewColumn Header="Åke #" Width="85" />
+                    <GridView.ColumnHeaderContainerStyle>
+                        <Style TargetType="{x:Type GridViewColumnHeader}">
+                            <Setter Property="Background" Value="#FF6C7A89" />
+                            <Setter Property="Foreground" Value="Black" />
+                        </Style>
+                    </GridView.ColumnHeaderContainerStyle>
+                    <GridViewColumn Header="Sats #" Width="62" />
+                    <GridViewColumn Header="Ver" Width="61" />
+                    <GridViewColumn Header="Status" Width="61" />
                 </GridView>
             </ListView.View>
         </ListView>
