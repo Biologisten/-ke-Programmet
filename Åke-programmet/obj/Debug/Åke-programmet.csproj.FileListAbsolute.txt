@@ -13,7 +13,6 @@ D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\Åke-programmet.cspr
 D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\Åke-programmet.exe
 D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\Åke-programmet.pdb
 D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\Åke-programmet.csprojResolveAssemblyReference.cache
-D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\Åke-programmet.csproj.Åke-programmet.exe.config
 D:\GitKraken Repo\Åke-programmet\Åke-programmet\bin\Debug\Devart.Data.dll
 D:\GitKraken Repo\Åke-programmet\Åke-programmet\bin\Debug\Devart.Data.MySql.dll
 D:\GitKraken Repo\Åke-programmet\Åke-programmet\bin\Debug\Devart.Data.MySql.Vs.dll
@@ -28,3 +27,4 @@ D:\GitKraken Repo\Åke-programmet\Åke-programmet\bin\Debug\Devart.Data.xml
 D:\GitKraken Repo\Åke-programmet\Åke-programmet\bin\Debug\Devart.Data.MySql.xml
 D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\Library\test.g.cs
 D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\Library\test.baml
+D:\GitKraken Repo\Åke-programmet\Åke-programmet\obj\Debug\Åke-programmet.exe.config

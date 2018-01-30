@@ -24,9 +24,10 @@ namespace Åke_programmet.Library
             InitializeComponent();
         }
 
-        public void Nibba(string str)
+        public void get_str(string str)
         {
-            nibnob.Text = str;
+            debug.Text += str;
+            debug.Text += "\n";
         }
     }
 }

@@ -8,22 +8,23 @@ namespace Åke_programmet.Library
 {
     public class Data
     {
+        public List<Data> artikel;
         private string satnum;
         private string produktnamn;
         private string prodnum;
         private string kulör;
         private string sapnum;
         private string sapsatnum;
-        private string justering_a;
-        private string justering_b;
+        private string justering1_a;
+        private string justering1_b;
         private string justering2_a;
         private string justering2_b;
         private string justering3_a;
         private string justering3_b;
         private string justering4_a;
         private string justering4_b;
-        private string nyansering_a;
-        private string nyansering_b;
+        private string nyansering1_a;
+        private string nyansering1_b;
         private string nyansering2_a;
         private string nyansering2_b;
         private string nyansering3_a;
@@ -50,9 +51,31 @@ namespace Åke_programmet.Library
         private string fst;
         private string ufst;
         private string bort;
+        private string utskrdat;
+        private string startdat;
+        private string godkdat;
+        private string tappdat;
+        private string recvikt;
+        private string satsvikt;
+        private string satsvol;
+        private string tappvikt;
+        private string tappvol;
+        private string utbyte;
+        private string tank;
+        private string cm;
+        private string upmvol;
+        private string status;
+        private string ver;
+        private string just;
+        private string nyans;
+        private string tillvtid;
+        private string kontrtid;
+        private string anmärkning;
+        private string kod_bok;
 
 
-        public Data(string satnum, string produktnamn, string prodnum, string kulör, string sapnum, string sapsatnum, string justering_a, string justering_b, string justering1_a, string justering1_b, string justering2_a, string justering2_b, string justering3_a, string justering3_b, string justering4_a, string justering4_b, string nyansering_a, string nyansering_b, string nyansering2_a, string nyansering2_b, string nyansering3_a, string nyansering3_b, string nyansering4_a, string nyansering4_b, string densitet, string utgdensitet, string copdin, string utcop, string rivn, string gl85, string ugl85, string ph, string utph, string rot, string utgrot, string gl60, string utggl60, string de, string dl, string da, string db, string fst, string ufst)
+
+        public Data(string satnum, string produktnamn, string prodnum, string kulör, string sapnum, string sapsatnum, string justering1_a, string justering1_b, string justering2_a, string justering2_b, string justering3_a, string justering3_b, string justering4_a, string justering4_b, string nyansering1_a, string nyansering1_b, string nyansering2_a, string nyansering2_b, string nyansering3_a, string nyansering3_b, string nyansering4_a, string nyansering4_b, string densitet, string utgdensitet, string copdin, string utcop, string rivn, string gl85, string ugl85, string ph, string utph, string rot, string utgrot, string gl60, string utggl60, string de, string dl, string da, string db, string fst, string ufst, string bort, string utskrdat, string startdat, string godkdat, string tappdat, string recvikt, string satsvikt, string satsvol, string tappvikt, string tappvol, string utbyte, string tank, string cm, string upmvol, string status, string ver, string just, string nyans, string tillvtid, string kontrtid, string anmärkning, string kod_bok)
         {
             this.satnum = satnum;
             this.produktnamn = produktnamn;
@@ -60,16 +83,16 @@ namespace Åke_programmet.Library
             this.kulör = kulör;
             this.sapnum = sapnum;
             this.sapsatnum = sapsatnum;
-            this.justering_a = justering_a;
-            this.justering_b = justering_b;
+            this.justering1_a = justering1_a;
+            this.justering1_b = justering1_b;
             this.justering2_a = justering2_a;
             this.justering2_b = justering2_b;
             this.justering3_a = justering3_a;
             this.justering3_b = justering3_b;
             this.justering4_a = justering4_a;
             this.justering4_b = justering4_b;
-            this.nyansering_a = nyansering_a;
-            this.nyansering_b = nyansering_b;
+            this.nyansering1_a = nyansering1_a;
+            this.nyansering1_b = nyansering1_b;
             this.nyansering2_a = nyansering2_a;
             this.nyansering2_b = nyansering2_b;
             this.nyansering3_a = nyansering3_a;
@@ -95,7 +118,28 @@ namespace Åke_programmet.Library
             this.db = db;
             this.fst = fst;
             this.ufst = ufst;
-
+            this.bort = bort;
+            this.utskrdat = utskrdat;
+            this.startdat = startdat;
+            this.godkdat = godkdat;
+            this.tappdat = tappdat;
+            this.recvikt = recvikt;
+            this.satsvikt = satsvikt;
+            this.satsvol = satsvol;
+            this.tappvikt = tappvikt;
+            this.tappvol = tappvol;
+            this.utbyte = utbyte;
+            this.tank = tank;
+            this.cm = cm;
+            this.upmvol = upmvol;
+            this.status = status;
+            this.ver = ver;
+            this.just = just;
+            this.nyans = nyans;
+            this.tillvtid = tillvtid;
+            this.kontrtid = kontrtid;
+            this.anmärkning = anmärkning;
+            this.kod_bok = kod_bok;
     }
 
         public string SATNUM
@@ -170,27 +214,27 @@ namespace Åke_programmet.Library
             }
         }
 
-        public string JUSTERING_A
+        public string JUSTERING1_A
         {
             get
             {
-                return this.justering_a;
+                return this.justering1_a;
             }
             set
             {
-                this.justering_a = value;
+                this.justering1_a = value;
             }
         }
 
-        public string JUSTERING_B
+        public string JUSTERING1_B
         {
             get
             {
-                return this.justering_b;
+                return this.justering1_b;
             }
             set
             {
-                this.justering_b = value;
+                this.justering1_b = value;
             }
         }
 
@@ -266,27 +310,27 @@ namespace Åke_programmet.Library
             }
         }
 
-        public string NYANSERING_A
+        public string NYANSERING1_A
         {
             get
             {
-                return this.nyansering_a;
+                return this.nyansering1_a;
             }
             set
             {
-                this.nyansering_a = value;
+                this.nyansering1_a = value;
             }
         }
 
-        public string NYANSERING_B
+        public string NYANSERING1_B
         {
             get
             {
-                return this.nyansering_b;
+                return this.nyansering1_b;
             }
             set
             {
-                this.nyansering_b = value;
+                this.nyansering1_b = value;
             }
         }
 
@@ -503,6 +547,270 @@ namespace Åke_programmet.Library
             set
             {
                 this.ufst = value;
+            }
+        }
+
+        public string BORT
+        {
+            get
+            {
+                return this.bort;
+            }
+            set
+            {
+                this.bort = value;
+            }
+        }
+
+        public string UTSKRDAT
+        {
+            get
+            {
+                return this.utskrdat;
+            }
+            set
+            {
+                this.utskrdat = value;
+            }
+        }
+
+        public string STARTDAT
+        {
+            get
+            {
+                return this.startdat;
+            }
+            set
+            {
+                this.startdat = value;
+            }
+        }
+
+        public string GODKDAT
+        {
+            get
+            {
+                return this.godkdat;
+            }
+            set
+            {
+                this.godkdat = value;
+            }
+        }
+
+        public string TAPPDAT
+        {
+            get
+            {
+                return this.tappdat;
+            }
+            set
+            {
+                this.tappdat = value;
+            }
+        }
+
+        public string RECVIKT
+        {
+            get
+            {
+                return this.recvikt;
+            }
+            set
+            {
+                this.recvikt = value;
+            }
+        }
+
+        public string SATSVIKT
+        {
+            get
+            {
+                return this.satsvikt;
+            }
+            set
+            {
+                this.satsvikt = value;
+            }
+        }
+
+        public string SATSVOL
+        {
+            get
+            {
+                return this.satsvol;
+            }
+            set
+            {
+                this.satsvol = value;
+            }
+        }
+
+        public string TAPPVIKT
+        {
+            get
+            {
+                return this.tappvikt;
+            }
+            set
+            {
+                this.tappvikt = value;
+            }
+        }
+
+        public string TAPPVOL
+        {
+            get
+            {
+                return this.tappvol;
+            }
+            set
+            {
+                this.tappvol = value;
+            }
+        }
+
+        public string UTBYTE
+        {
+            get
+            {
+                return this.utbyte;
+            }
+            set
+            {
+                this.utbyte = value;
+            }
+        }
+
+        public string TANK
+        {
+            get
+            {
+                return this.tank;
+            }
+            set
+            {
+                this.tank = value;
+            }
+        }
+
+        public string CM
+        {
+            get
+            {
+                return this.CM;
+            }
+            set
+            {
+                this.CM = value;
+            }
+        }
+
+        public string UPMVOL
+        {
+            get
+            {
+                return this.upmvol;
+            }
+            set
+            {
+                this.upmvol = value;
+            }
+        }
+
+        public string STATUS
+        {
+            get
+            {
+                return this.status;
+            }
+            set
+            {
+                this.status = value;
+            }
+        }
+
+        public string VER
+        {
+            get
+            {
+                return this.ver;
+            }
+            set
+            {
+                this.ver = value;
+            }
+        }
+
+        public string JUST
+        {
+            get
+            {
+                return this.just;
+            }
+            set
+            {
+                this.just = value;
+            }
+        }
+
+        public string NYANS
+        {
+            get
+            {
+                return this.nyans;
+            }
+            set
+            {
+                this.nyans = value;
+            }
+        }
+
+        public string TILLVTID
+        {
+            get
+            {
+                return this.tillvtid;
+            }
+            set
+            {
+                this.tillvtid = value;
+            }
+        }
+
+        public string KONTRTID
+        {
+            get
+            {
+                return this.kontrtid;
+            }
+            set
+            {
+                this.kontrtid = value;
+            }
+        }
+
+        public string ANMÄRKNING
+        {
+            get
+            {
+                return this.anmärkning;
+            }
+            set
+            {
+                this.anmärkning = value;
+            }
+        }
+
+        public string KOD_BOK
+        {
+            get
+            {
+                return this.kod_bok;
+            }
+            set
+            {
+                this.kod_bok = value;
             }
         }
     }
