@@ -8,8 +8,7 @@ namespace Åke_programmet.Library
 {
     public class Data
     {
-        public List<Data> artikel;
-        private string satnum;
+        private string satsnum;
         private string produktnamn;
         private string prodnum;
         private string kulör;
@@ -75,9 +74,9 @@ namespace Åke_programmet.Library
 
 
 
-        public Data(string satnum, string produktnamn, string prodnum, string kulör, string sapnum, string sapsatnum, string justering1_a, string justering1_b, string justering2_a, string justering2_b, string justering3_a, string justering3_b, string justering4_a, string justering4_b, string nyansering1_a, string nyansering1_b, string nyansering2_a, string nyansering2_b, string nyansering3_a, string nyansering3_b, string nyansering4_a, string nyansering4_b, string densitet, string utgdensitet, string copdin, string utcop, string rivn, string gl85, string ugl85, string ph, string utph, string rot, string utgrot, string gl60, string utggl60, string de, string dl, string da, string db, string fst, string ufst, string bort, string utskrdat, string startdat, string godkdat, string tappdat, string recvikt, string satsvikt, string satsvol, string tappvikt, string tappvol, string utbyte, string tank, string cm, string upmvol, string status, string ver, string just, string nyans, string tillvtid, string kontrtid, string anmärkning, string kod_bok)
+        public Data(string satsnum, string produktnamn, string prodnum, string kulör, string sapnum, string sapsatnum, string justering1_a, string justering1_b, string justering2_a, string justering2_b, string justering3_a, string justering3_b, string justering4_a, string justering4_b, string nyansering1_a, string nyansering1_b, string nyansering2_a, string nyansering2_b, string nyansering3_a, string nyansering3_b, string nyansering4_a, string nyansering4_b, string densitet, string utgdensitet, string copdin, string utcop, string rivn, string gl85, string ugl85, string ph, string utph, string rot, string utgrot, string gl60, string utggl60, string de, string dl, string da, string db, string fst, string ufst, string bort, string utskrdat, string startdat, string godkdat, string tappdat, string recvikt, string satsvikt, string satsvol, string tappvikt, string tappvol, string utbyte, string tank, string cm, string upmvol, string status, string ver, string just, string nyans, string tillvtid, string kontrtid, string anmärkning, string kod_bok)
         {
-            this.satnum = satnum;
+            this.satsnum = satsnum;
             this.produktnamn = produktnamn;
             this.prodnum = prodnum;
             this.kulör = kulör;
@@ -142,15 +141,15 @@ namespace Åke_programmet.Library
             this.kod_bok = kod_bok;
     }
 
-        public string SATNUM
+        public string SATSNUM
         {
             get
             {
-                return this.satnum;
+                return this.satsnum;
             }
             set
             {
-                this.satnum = value;
+                this.satsnum = value;
             }
         }
 

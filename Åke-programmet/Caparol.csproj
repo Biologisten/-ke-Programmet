@@ -95,7 +95,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Library\Data.cs" />
-    <Compile Include="Library\Databas.cs" />
+    <Compile Include="Library\Database.cs" />
     <Compile Include="Library\test.xaml.cs">
       <DependentUpon>test.xaml</DependentUpon>
     </Compile>

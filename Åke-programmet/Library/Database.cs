@@ -9,11 +9,11 @@ using System.Windows;
 
 namespace Åke_programmet.Library
 {
-    public class Databas
+    public class Database
     {
-        private List<Data> DBlist = new List<Data>();
+        public List<Data> DBlist = new List<Data>();
 
-        MySqlConnection Connection = new MySqlConnection()
+        private MySqlConnection Connection = new MySqlConnection()
         {
             Host = "localhost",
             Port = 3306,
@@ -114,7 +114,7 @@ namespace Åke_programmet.Library
                             i++;
                         }
                     }
-                    debug_test.get_str(Artikel.SATNUM.ToString());
+                    debug_test.get_str(Artikel.SATSNUM.ToString());
                     debug_test.ShowDialog();
                 }
             }
@@ -125,6 +125,33 @@ namespace Åke_programmet.Library
                 // always call Close when done reading.
                 Connection.Close();
             }
+        }
+
+        public Data Get_info(string id)
+        {
+            int index = Exists(id);
+            if (index >= 0)
+            {
+                return DBlist[index];
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        private int Exists(string id)
+        {
+            int index = 0;
+            foreach (Data Artikel in DBlist)
+            {
+                if (id == Artikel.SATSNUM)
+                {
+                    return index;
+                }
+                index++;
+            }
+            return -1;
         }
     }
 }
