@@ -8,7 +8,7 @@
 
     <Grid>
         <StackPanel>
-            <StackPanel Margin="10,10,0,0" Orientation="Horizontal">
+            <StackPanel Margin="10,10,0,0" Orientation="Horizontal" HorizontalAlignment="Left">
                 <Label Background="#FF6C7A89" Content="SATSNUM" Foreground="Black" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="PRODUKTNAMN" BorderThickness="0,0,1,0" Width="102" />
                 <Label Background="#FF6C7A89" Content="PRODUKTNUMMER" BorderThickness="0,0,1,0" Width="118" />
@@ -16,47 +16,47 @@
                 <Label Background="#FF6C7A89" Content="SAPNUM" BorderThickness="0,0,1,0" Width="62" />
                 <Label Background="#FF6C7A89" Content="SAPSATSNUMMER" BorderThickness="0" Width="112" />
             </StackPanel>
-            <StackPanel Margin="10 -1 0 0" Orientation="Horizontal">
-                <TextBox x:Name="SATSNUM" Padding="4" Height="26" Width="65" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" KeyUp="SATSNUM_KeyUp" />
-                <TextBox x:Name="PRODUKTNAMN" Padding="4" Height="26" Width="102" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="NAMN14553" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="PRODUKTNUMMER" Padding="4" Height="26" Width="118" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="KULÖR" Padding="4" Height="26" Width="50" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="SAPNUM" Padding="4" Height="26" Width="62" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="SAPSATNUMMER" Padding="4" Height="26" Width="112" Background="#FFD2D7D3" BorderThickness="0" Text="123" HorizontalContentAlignment="Center" />
+            <StackPanel Margin="10 -1 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBox x:Name="SATSNUM" Padding="4" Height="26" Width="65" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" KeyUp="SATSNUM_KeyUp" />
+                <TextBox x:Name="PRODUKTNAMN" Padding="4" Height="26" Width="102" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="PRODUKTNUMMER" Padding="4" Height="26" Width="118" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="KULÖR" Padding="4" Height="26" Width="50" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="SAPNUM" Padding="4" Height="26" Width="62" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="SAPSATNUMMER" Padding="4" Height="26" Width="112" Background="#FFD2D7D3" BorderThickness="0" HorizontalContentAlignment="Center" />
             </StackPanel>
-            <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+            <StackPanel Margin="10 10 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
                 <Label Background="#FF6C7A89" Content="Justering 1" Width="120" HorizontalAlignment="Left" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="Justering 2" Width="120" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="Justering 3" Width="120" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="Justering 4" Width="120" HorizontalContentAlignment="Center" />
             </StackPanel>
-            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
-                <TextBox x:Name="J1_a" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="J1_b" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="J2_a" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="J2_b" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="J3_a" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="J3_b" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="J4_a" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="J4_b" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0" Text="123" HorizontalContentAlignment="Center" />
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBox x:Name="J1_a" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="J1_b" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="J2_a" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="J2_b" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="J3_a" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="J3_b" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="J4_a" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="J4_b" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0" HorizontalContentAlignment="Center" />
             </StackPanel>
-            <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+            <StackPanel Margin="10 10 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
                 <Label Background="#FF6C7A89" Content="Nyansering 1" Width="120" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0"/>
                 <Label Background="#FF6C7A89" Content="Nyansering 2" Width="120" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="Nyansering 3" Width="120" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="Nyansering 4" Width="120" HorizontalContentAlignment="Center" BorderThickness="0" />
             </StackPanel>
-            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
-                <TextBox x:Name="N1_a" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="N1_b" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="N2_a" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="N2_b" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="N3_a" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="N3_b" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="N4_a" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="N4_b" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBox x:Name="N1_a" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="N1_b" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="N2_a" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="N2_b" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="N3_a" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="N3_b" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="N4_a" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="N4_b" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
             </StackPanel>
-            <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+            <StackPanel Margin="10 10 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
                 <Label Background="#FF6C7A89" Content="DENSITET" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" Width="64"/>
                 <Label Background="#FF6C7A89" Content="UTG-DENS" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" Width="70" />
                 <Label Background="#FF6C7A89" Content="CoP/DIN" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" Width="64" />
@@ -66,17 +66,17 @@
                 <Label Background="#FF6C7A89" Content="UGL 85*" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" Width="64" />
                 <Label Background="#FF6C7A89" Content="PH" HorizontalContentAlignment="Center" BorderThickness="0" Width="64" />
             </StackPanel>
-            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
-                <TextBox x:Name="DENSITET" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="UTG_DENS" Padding="4" Height="26" Width="70" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="CoP_DIN" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="UT_CoP" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="RIVN" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="GL85" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="UGL85" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="PH" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBox x:Name="DENSITET" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="UTG_DENS" Padding="4" Height="26" Width="70" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="CoP_DIN" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="UT_CoP" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="RIVN" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="GL85" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="UGL85" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="PH" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
             </StackPanel>
-            <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+            <StackPanel Margin="10 10 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
                 <Label Background="#FF6C7A89" Content="UT-PH" HorizontalContentAlignment="Center" BorderThickness="0" Width="64" />
                 <Label Background="#FF6C7A89" Content="ROT" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0"/>
                 <Label Background="#FF6C7A89" Content="UTG-ROT" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
@@ -86,17 +86,17 @@
                 <Label Background="#FF6C7A89" Content="DL" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="DA" HorizontalContentAlignment="Center" Width="64" BorderThickness="0" />
             </StackPanel>
-            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
-                <TextBox x:Name="UT_PH" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="ROT" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="UTG_ROT" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="GL60" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="UGL60" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center"/>
-                <TextBox x:Name="DE" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="DL" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="DA" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBox x:Name="UT_PH" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="ROT" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="UTG_ROT" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="GL60" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="UGL60" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center"/>
+                <TextBox x:Name="DE" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="DL" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="DA" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
             </StackPanel>
-            <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+            <StackPanel Margin="10 10 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
                 <Label Background="#FF6C7A89" Content="DB" HorizontalContentAlignment="Center" Width="72" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="FST" HorizontalContentAlignment="Center" Width="72" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="U-FST" HorizontalContentAlignment="Center" Width="72" BorderThickness="0,0,1,0" />
@@ -105,16 +105,16 @@
                 <Label Background="#FF6C7A89" Content="STARTDAT" HorizontalContentAlignment="Center" Width="72" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="GODKDAT" HorizontalContentAlignment="Center" Width="72" BorderThickness="0" />
             </StackPanel>
-            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
-                <TextBox x:Name="DB" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="FST" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="UFST" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="BORT" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="UTSKRDAT" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="STARTDAT" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="GODKDAT" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBox x:Name="DB" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="FST" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="UFST" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="BORT" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="UTSKRDAT" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="STARTDAT" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="GODKDAT" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
             </StackPanel>
-            <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+            <StackPanel Margin="10 10 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
                 <Label Background="#FF6C7A89" Content="TAPPDAT" HorizontalContentAlignment="Center" Width="72" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="REC VIKT" HorizontalContentAlignment="Center" Width="72" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="SATS VIKT" HorizontalContentAlignment="Center" Width="72" BorderThickness="0,0,1,0" />
@@ -123,16 +123,16 @@
                 <Label Background="#FF6C7A89" Content="TAPP VOL" HorizontalContentAlignment="Center" Width="80" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="UTBYTE" HorizontalContentAlignment="Center" Width="86" />
             </StackPanel>
-            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
-                <TextBox x:Name="TAPPDAT" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="REC_VIKT" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="SATS_VIKT" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="SATS_VOL" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="TAPP_VIKT" Padding="4" Height="26" Width="92" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="TAPP_VOL" Padding="4" Height="26" Width="80" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="UTBYTE" Padding="4" Height="26" Width="86" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBox x:Name="TAPPDAT" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="REC_VIKT" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="SATS_VIKT" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="SATS_VOL" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="TAPP_VIKT" Padding="4" Height="26" Width="92" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="TAPP_VOL" Padding="4" Height="26" Width="80" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="UTBYTE" Padding="4" Height="26" Width="86" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
             </StackPanel>
-            <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+            <StackPanel Margin="10 10 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
                 <Label Background="#FF6C7A89" Content="TANK" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="CM" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="UPM VOL" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
@@ -143,39 +143,39 @@
                 <Label Background="#FF6C7A89" Content="TILLVTID" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="KONTRTID" HorizontalContentAlignment="Center" Width="72" BorderThickness="0" />
             </StackPanel>
-            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
-                <TextBox x:Name="TANK" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="CM" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="UPM_VOL" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="STATUS" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="VER" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="JUST" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="NYANS" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="TILLVTID" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="KONTRTID" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="123" HorizontalContentAlignment="Center" />
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBox x:Name="TANK" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="CM" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="UPM_VOL" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="STATUS" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="VER" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="JUST" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="NYANS" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="TILLVTID" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="KONTRTID" Padding="4" Height="26" Width="72" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
             </StackPanel>
-            <StackPanel Margin="10 10 0 0" Orientation="Horizontal">
+            <StackPanel Margin="10 10 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
                 <Label Background="#FF6C7A89" Content="ANMÄRKNING" HorizontalContentAlignment="Center" Width="152" BorderThickness="0" Margin="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="KOD-BOK" HorizontalContentAlignment="Center" Width="152" BorderThickness="0" />
             </StackPanel>
-            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
-                <TextBox x:Name="ANMÄRKNING"  Padding="4" Height="26" Width="152" Background="#FFD2D7D3" BorderThickness="0,0,1,0" Text="ABC" HorizontalContentAlignment="Center" Margin="0,0,1,0" />
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
+                <TextBox x:Name="ANMÄRKNING"  Padding="4" Height="26" Width="152" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" Margin="0,0,1,0" />
                 <ComboBox x:Name="KOD_BOK" Width="152">
                     <ComboBoxItem Content=""/>
                 </ComboBox>
             </StackPanel>
         </StackPanel>
         <Button Content="Godkänn" Margin="340,0,332,22" Height="32" Width="120" VerticalAlignment="Bottom" HorizontalAlignment="Center" />
-        <ListView x:Name="Listview" Margin="0,28,26,0" VerticalAlignment="Top" Height="290" Background="#FFD2D7D3" HorizontalAlignment="Right" Width="190" SelectionChanged="Listview_SelectionChanged">
+        <ListView x:Name="Listview" Margin="0,28,26,0" VerticalAlignment="Top" Height="405" Background="#FFD2D7D3" HorizontalAlignment="Right" Width="190" SelectionChanged="Listview_SelectionChanged" BorderThickness="3,1,3,3">
             <ListView.View>
-                <GridView>
+                <GridView AllowsColumnReorder="False">
                     <GridView.ColumnHeaderContainerStyle>
                         <Style TargetType="{x:Type GridViewColumnHeader}">
                             <Setter Property="Background" Value="#FF6C7A89" />
                             <Setter Property="Foreground" Value="Black" />
                         </Style>
                     </GridView.ColumnHeaderContainerStyle>
-                    <GridViewColumn Header="Sats #" Width="62" />
+                    <GridViewColumn Header="Sats #" Width="61" />
                     <GridViewColumn Header="Ver" Width="61" />
                     <GridViewColumn Header="Status" Width="61" />
                 </GridView>
