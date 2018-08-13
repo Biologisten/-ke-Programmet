@@ -42,7 +42,7 @@ namespace Åke_programmet.Library
         private string rot;
         private string utgrot;
         private string gl60;
-        private string utggl60;
+        private string ugl60;
         private string de;
         private string dl;
         private string da;
@@ -110,7 +110,7 @@ namespace Åke_programmet.Library
             this.rot = rot;
             this.utgrot = utgrot;
             this.gl60 = gl60;
-            this.utggl60 = utggl60;
+            this.ugl60 = utggl60;
             this.de = de;
             this.dl = dl;
             this.da = da;
@@ -405,6 +405,66 @@ namespace Åke_programmet.Library
             }
         }
 
+        public string DENSITET
+        {
+            get
+            {
+                return this.densitet;
+            }
+            set
+            {
+                this.densitet = value;
+            }
+        }
+
+        public string UTGDENSITET
+        {
+            get
+            {
+                return this.utgdensitet;
+            }
+            set
+            {
+                this.utgdensitet = value;
+            }
+        }
+
+        public string COPDIN
+        {
+            get
+            {
+                return this.copdin;
+            }
+            set
+            {
+                this.copdin = value;
+            }
+        }
+
+        public string UTCOP
+        {
+            get
+            {
+                return this.utcop;
+            }
+            set
+            {
+                this.utcop = value;
+            }
+        }
+
+        public string RIVN
+        {
+            get
+            {
+                return this.rivn;
+            }
+            set
+            {
+                this.rivn = value;
+            }
+        }
+
         public string GL85
         {
             get
@@ -438,6 +498,18 @@ namespace Åke_programmet.Library
             set
             {
                 this.ph = value;
+            }
+        }
+
+        public string UTPH
+        {
+            get
+            {
+                return this.utph;
+            }
+            set
+            {
+                this.utph = value;
             }
         }
 
@@ -477,15 +549,15 @@ namespace Åke_programmet.Library
             }
         }
 
-        public string UTGGL60
+        public string UGL60
         {
             get
             {
-                return this.utggl60;
+                return this.ugl60;
             }
             set
             {
-                this.utggl60 = value;
+                this.ugl60 = value;
             }
         }
         
@@ -522,6 +594,18 @@ namespace Åke_programmet.Library
             set
             {
                 this.da = value;
+            }
+        }
+
+        public string DB
+        {
+            get
+            {
+                return this.db;
+            }
+            set
+            {
+                this.db = value;
             }
         }
 
@@ -697,11 +781,11 @@ namespace Åke_programmet.Library
         {
             get
             {
-                return this.CM;
+                return this.cm;
             }
             set
             {
-                this.CM = value;
+                this.cm = value;
             }
         }
 

@@ -12,6 +12,7 @@ namespace Åke_programmet.Library
     public class Database
     {
         public List<Data> DBlist = new List<Data>();
+        private List<int> DBids = new List<int>();
 
         private MySqlConnection Connection = new MySqlConnection()
         {
@@ -22,9 +23,20 @@ namespace Åke_programmet.Library
             Database = "åkedb"
         };
 
-        public List<Data> DBdump()
+        public List<int> DBid()
         {
-            return DBlist;
+            int i = DBlist.Count - 1;
+            foreach (Data item in DBlist)
+            {
+                int.TryParse(DBlist[i].SATSNUM, out int ID);
+                DBids.Add(ID);
+                i--;
+                if (i <= -1)
+                {
+                    break;
+                }
+            }
+            return DBids;
         }
 
         public void PrintDept()
