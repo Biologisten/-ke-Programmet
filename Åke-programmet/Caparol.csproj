@@ -92,10 +92,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Library\NoID.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Library\test.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -110,9 +106,6 @@
     </Compile>
     <Compile Include="Library\Data.cs" />
     <Compile Include="Library\Database.cs" />
-    <Compile Include="Library\NoID.xaml.cs">
-      <DependentUpon>NoID.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Library\test.xaml.cs">
       <DependentUpon>test.xaml</DependentUpon>
     </Compile>

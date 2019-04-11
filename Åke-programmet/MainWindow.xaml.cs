@@ -101,8 +101,7 @@ namespace Åke_programmet
             }
             else
             {
-                Library.NoID Error = new Library.NoID();
-                Error.ShowDialog();
+                MessageBox.Show(this, "Satsnummert finns inte", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
