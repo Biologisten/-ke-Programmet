@@ -14,7 +14,7 @@ namespace Åke_programmet.Library
         public List<Data> DBlist = new List<Data>();
         private List<int> DBids = new List<int>();
 
-        private MySqlConnection Connection = new MySqlConnection()
+        private readonly MySqlConnection Connection = new MySqlConnection()
         {
             Host = "localhost",
             Port = 3306,

@@ -99,10 +99,6 @@ namespace Åke_programmet
                 ANMÄRKNING.Text = Values.ANMÄRKNING;
                 KOD_BOK.Text = Values.KOD_BOK;
             }
-            else
-            {
-                MessageBox.Show(this, "Satsnummert finns inte", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
         }
 
         private void Listsource()
@@ -133,9 +129,16 @@ namespace Åke_programmet
             test.DBlist.Add(recipe);
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Search_recipe(object sender, RoutedEventArgs e)
         {
-            Set_values(SATSNUM.Text);
+            if (test.Get_info(ID_Search.Text) != null)
+            {
+                Set_values(ID_Search.Text);
+            }
+            else
+            {
+                MessageBox.Show(this, "Satsnummert finns inte", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
     }
 }
