@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using Devart.Data.MySql;
 using System.Windows;
+using System.Configuration;
 
 namespace Åke_programmet.Library
 {
@@ -18,7 +19,7 @@ namespace Åke_programmet.Library
         {
             Host = "localhost",
             Port = 3306,
-            UserId = "root",
+            UserId = "",
             Password = "",
             Database = "åkedb"
         };
@@ -41,6 +42,9 @@ namespace Åke_programmet.Library
 
         public void PrintDept()
         {
+            var appSettings = ConfigurationManager.AppSettings;
+            Connection.UserId = appSettings["userID"].ToString();
+            Connection.Password = appSettings["pass"].ToString();
             MySqlCommand command = Connection.CreateCommand();
             command.CommandText = "SELECT * FROM åkedb";
             Connection.Open();
