@@ -15,7 +15,7 @@ namespace Åke_programmet.Library
         public List<Data> DBlist = new List<Data>();
         private List<int> DBids = new List<int>();
 
-        private readonly MySqlConnection Connection = new MySqlConnection()
+        private readonly MySqlConnection Connection = new MySqlConnection() //Sets connection settings
         {
             Host = "localhost",
             Port = 3306,
@@ -24,7 +24,7 @@ namespace Åke_programmet.Library
             Database = "åkedb"
         };
 
-        public List<int> DBid()
+        public List<int> DBid() //Checks if id exists and returns it
         {
             int i = DBlist.Count - 1;
             foreach (Data item in DBlist)
@@ -40,7 +40,7 @@ namespace Åke_programmet.Library
             return DBids;
         }
 
-        public void PrintDept()
+        public void PrintDept() //Prints all values from db in test window
         {
             var appSettings = ConfigurationManager.AppSettings;
             Connection.UserId = appSettings["userID"].ToString();
@@ -143,7 +143,7 @@ namespace Åke_programmet.Library
             }
         }
 
-        public Data Get_info(string id)
+        public Data Get_info(string id) //Gets info on a recipe
         {
             int index = Exists(id);
             if (index >= 0)
@@ -156,7 +156,7 @@ namespace Åke_programmet.Library
             }
         }
 
-        private int Exists(string id)
+        private int Exists(string id) //check if recipe exists
         {
             int index = 0;
             foreach (Data Artikel in DBlist)
