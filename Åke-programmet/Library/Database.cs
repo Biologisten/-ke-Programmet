@@ -13,7 +13,7 @@ namespace Åke_programmet.Library
     public class Database
     {
         public List<Data> DBlist = new List<Data>();
-        private List<int> DBids = new List<int>();
+        private readonly List<int> DBids = new List<int>();
 
         private readonly MySqlConnection Connection = new MySqlConnection() //Sets connection settings
         {
@@ -24,7 +24,7 @@ namespace Åke_programmet.Library
             Database = "åkedb"
         };
 
-        public List<int> DBid() //Checks if id exists and returns it
+        public List<int> DBid() //Checks for RecipeID and returns it.
         {
             int i = DBlist.Count - 1;
             foreach (Data item in DBlist)
