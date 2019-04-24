@@ -20,7 +20,7 @@ namespace Åke_programmet
     /// </summary>
     public partial class MainWindow : Window
     {
-        Library.Database test = new Library.Database();
+        Library.Database test = new Library.Database(); //Live sharing is cool bruh
 
         public MainWindow()
         {
