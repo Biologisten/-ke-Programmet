@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data.SqlClient;
-using Devart.Data.MySql;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 using System.Windows;
 using System.Configuration;
 
@@ -14,15 +14,6 @@ namespace Åke_programmet.Library
     {
         public List<Data> DBlist = new List<Data>();
         private readonly List<int> DBids = new List<int>();
-
-        private readonly MySqlConnection Connection = new MySqlConnection() //Sets connection settings
-        {
-            Host = "localhost",
-            Port = 3306,
-            UserId = "",
-            Password = "",
-            Database = "åkedb"
-        };
 
         public List<int> DBid() //Checks for RecipeID and returns it.
         {
@@ -42,9 +33,19 @@ namespace Åke_programmet.Library
 
         public void PrintDept() //Prints all values from db in test window
         {
+            MySqlConnectionStringBuilder builder = new MySqlConnectionStringBuilder
+            {
+                Server = "localhost",
+                UserID = "root",
+                Password = "",
+                Database = "åkedb"
+            };
+
+            MySqlConnection Connection = new MySqlConnection("Data Source=localhost; User ID=root; Password=; Initial Catalog=åkedb");
+
             var appSettings = ConfigurationManager.AppSettings;
-            Connection.UserId = appSettings["userID"].ToString();
-            Connection.Password = appSettings["pass"].ToString();
+            //Connection.UserId = appSettings["userID"].ToString();
+            //Connection.Password = appSettings["pass"].ToString();
             MySqlCommand command = Connection.CreateCommand();
             command.CommandText = "SELECT * FROM åkedb";
             Connection.Open();
