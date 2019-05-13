@@ -20,13 +20,12 @@ namespace Åke_programmet
     /// </summary>
     public partial class MainWindow : Window
     {
-        Library.Database test = new Library.Database(); //Live sharing is cool bruh
+        Library.Database test = new Library.Database();
 
         public MainWindow()
         {
             InitializeComponent();
-            test.PrintDept();   //Debugging, tests connection & shows values from DB
-            Listsource();       //Sets source for RecipeList
+            Listsource();     //Sets source for RecipeList
         }
 
         private void Set_values(string id)  //Sets values from DB to boxes in UI
@@ -103,6 +102,7 @@ namespace Åke_programmet
 
         private void Listsource()
         {
+            test.Refresh();
             Listview.ItemsSource = test.DBid();
         }
 
@@ -129,6 +129,7 @@ namespace Åke_programmet
             {
                 Library.Data recipe = new Library.Data(SATSNUM.Text, PRODUKTNAMN.Text, PRODUKTNUMMER.Text, KULÖR.Text, SAPNUM.Text, SAPSATNUMMER.Text, J1_a.Text, J1_b.Text, J2_a.Text, J2_b.Text, J3_a.Text, J3_b.Text, J4_a.Text, J4_b.Text, N1_a.Text, N1_b.Text, N2_a.Text, N2_b.Text, N3_a.Text, N3_b.Text, N4_a.Text, N4_b.Text, DENSITET.Text, UTG_DENS.Text, CoP_DIN.Text, UT_CoP.Text, RIVN.Text, GL85.Text, UGL85.Text, PH.Text, UT_PH.Text, ROT.Text, UTG_ROT.Text, GL60.Text, UGL60.Text, DE.Text, DL.Text, DA.Text, DB.Text, FST.Text, UFST.Text, BORT.Text, UTSKRDAT.Text, STARTDAT.Text, GODKDAT.Text, TAPPDAT.Text, REC_VIKT.Text, SATS_VIKT.Text, SATS_VOL.Text, TAPP_VIKT.Text, TAPP_VOL.Text, UTBYTE.Text, TANK.Text, CM.Text, UPM_VOL.Text, STATUS.Text, VER.Text, JUST.Text, NYANS.Text, TILLVTID.Text, KONTRTID.Text, ANMÄRKNING.Text, KOD_BOK.Text);
                 test.DBlist.Add(recipe);
+                test.Add_Recipe(SATSNUM.Text, PRODUKTNAMN.Text, PRODUKTNUMMER.Text, KULÖR.Text, SAPNUM.Text, SAPSATNUMMER.Text, J1_a.Text, J1_b.Text, J2_a.Text, J2_b.Text, J3_a.Text, J3_b.Text, J4_a.Text, J4_b.Text, N1_a.Text, N1_b.Text, N2_a.Text, N2_b.Text, N3_a.Text, N3_b.Text, N4_a.Text, N4_b.Text, DENSITET.Text, UTG_DENS.Text, CoP_DIN.Text, UT_CoP.Text, RIVN.Text, GL85.Text, UGL85.Text, PH.Text, UT_PH.Text, ROT.Text, UTG_ROT.Text, GL60.Text, UGL60.Text, DE.Text, DL.Text, DA.Text, DB.Text, FST.Text, UFST.Text, BORT.Text, UTSKRDAT.Text, STARTDAT.Text, GODKDAT.Text, TAPPDAT.Text, REC_VIKT.Text, SATS_VIKT.Text, SATS_VOL.Text, TAPP_VIKT.Text, TAPP_VOL.Text, UTBYTE.Text, TANK.Text, CM.Text, UPM_VOL.Text, STATUS.Text, VER.Text, JUST.Text, NYANS.Text, TILLVTID.Text, KONTRTID.Text, ANMÄRKNING.Text, KOD_BOK.Text);
                 Listsource();
             }
             else
