@@ -13,7 +13,7 @@ namespace Åke_programmet.Library
     public class Database
     {
         public List<Data> DBlist = new List<Data>();
-        private readonly List<int> DBids = new List<int>();
+        private readonly List<User> DBids = new List<User>();
         private MySqlConnectionStringBuilder Builder = new MySqlConnectionStringBuilder
         {
             Server = "localhost",
@@ -22,13 +22,12 @@ namespace Åke_programmet.Library
             Database = "åkedb"
         };
 
-        public List<int> DBid() //Checks for RecipeID and returns it.
+        public List<User> DBinfo() //Checks for Recipe info and returns it.
         {
             int i = DBlist.Count - 1;
             foreach (Data item in DBlist)
             {
-                int.TryParse(DBlist[i].SATSNUM, out int ID);
-                DBids.Add(ID);
+                DBids.Add(new User() { Satnum = item.SATSNUM, Ver = item.VER, Status = item.STATUS });
                 i--;
 
                 if (i <= -1)
@@ -176,6 +175,15 @@ namespace Åke_programmet.Library
                 index++;
             }
             return -1;
+        }
+
+        public class User
+        {
+            public string Satnum { get; set; }
+
+            public string Ver { get; set; }
+
+            public string Status { get; set; }
         }
     }
 }

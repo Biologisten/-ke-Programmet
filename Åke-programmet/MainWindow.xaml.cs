@@ -103,12 +103,13 @@ namespace Åke_programmet
 
         private void Listsource()
         {
-            Listview.ItemsSource = test.DBid();
+            List<Library.Database.User> items = test.DBinfo();
+            Listview.ItemsSource = items;
         }
 
         private void Listview_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Set_values(Listview.SelectedValue.ToString());
+            Set_values(Listview.SelectedIndex.ToString());
         }
 
         private void SATSNUM_KeyUp(object sender, KeyEventArgs e)

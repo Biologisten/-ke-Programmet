@@ -175,9 +175,9 @@
                             <Setter Property="Foreground" Value="Black" />
                         </Style>
                     </GridView.ColumnHeaderContainerStyle>
-                    <GridViewColumn Header="Sats #" Width="61" />
-                    <GridViewColumn Header="Ver" Width="61" />
-                    <GridViewColumn Header="Status" Width="61" />
+                    <GridViewColumn Header="Sats #" Width="61" DisplayMemberBinding="{Binding Satnum}"  />
+                    <GridViewColumn Header="Ver" Width="61" DisplayMemberBinding="{Binding Ver}"  />
+                    <GridViewColumn Header="Status" Width="61" DisplayMemberBinding="{Binding Status}"  />
                 </GridView>
             </ListView.View>
         </ListView>
