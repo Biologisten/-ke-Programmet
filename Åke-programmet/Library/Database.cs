@@ -64,6 +64,7 @@ namespace Åke_programmet.Library
         public void Refresh() //Gets latest data from DB
         {
             DBlist.Clear();
+            DBids.Clear();
             MySqlConnection Connection = new MySqlConnection(Builder.ConnectionString);
             MySqlCommand command = Connection.CreateCommand();
             command.CommandText = "SELECT * FROM åkedb";

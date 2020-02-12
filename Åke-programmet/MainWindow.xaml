@@ -185,7 +185,7 @@
         <Label Content="Recept ID" Margin="0,10,10,0" FontSize="16" Foreground="#FFC9C9C9" Height="36" VerticalAlignment="Top" HorizontalAlignment="Right" Width="190"/>
         <Button Content="Sök recept" Margin="0,97,49,0" VerticalAlignment="Top" Height="32" HorizontalAlignment="Right" Width="111" Click="Search_recipe"/>
         <Button Content="Rensa" HorizontalAlignment="Left" Margin="178,0,0,22" Width="115" Height="32" VerticalAlignment="Bottom" FontSize="18" Click="Clear"/>
-        <Button Content="Skriv ut" HorizontalAlignment="Left" Margin="10,0,0,22" Width="115" Height="32" FontSize="18" VerticalAlignment="Bottom" />
+        <Button Content="Skriv ut" HorizontalAlignment="Left" Margin="10,0,0,22" Width="115" Height="32" FontSize="18" VerticalAlignment="Bottom" Click="Print" />
         <Button Content="Etikett" HorizontalAlignment="Left" Margin="547,0,0,22" Width="115" Height="32" FontSize="18" VerticalAlignment="Bottom" />
         <Button Content="Avsluta" HorizontalAlignment="Left" Margin="704,0,0,22" Width="116" Height="32" FontSize="18" VerticalAlignment="Bottom" Click="Quit"/>
     </Grid>
