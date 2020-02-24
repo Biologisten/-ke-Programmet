@@ -301,7 +301,7 @@ namespace Åke_programmet
         private void Print(object sender, RoutedEventArgs e)
         {
             PrintDialog printDlg = new PrintDialog();
-            if(printDlg.ShowDialog() == true)
+            if (printDlg.ShowDialog() == true)
             {
                 printDlg.PrintVisual(this, "Skriv ut");
             }
