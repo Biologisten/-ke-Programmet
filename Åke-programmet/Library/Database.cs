@@ -16,7 +16,7 @@ namespace Åke_programmet.Library
         private readonly List<User> DBids = new List<User>();
         private MySqlConnectionStringBuilder Builder = new MySqlConnectionStringBuilder
         {
-            Server = "localhost",
+            Server = "10.80.32.227",
             UserID = "root",
             Password = "",
             Database = "åkedb"
