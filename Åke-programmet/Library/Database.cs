@@ -1,12 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MySql.Data;
-using MySql.Data.MySqlClient;
-using System.Windows;
-using System.Configuration;
 
 namespace Åke_programmet.Library
 {
@@ -14,6 +7,7 @@ namespace Åke_programmet.Library
     {
         public List<Data> DBlist = new List<Data>();
         private readonly List<User> DBids = new List<User>();
+
         private MySqlConnectionStringBuilder Builder = new MySqlConnectionStringBuilder
         {
             Server = "10.80.32.227",
@@ -49,7 +43,6 @@ namespace Åke_programmet.Library
             {
                 while (myReader.Read())
                 {
-
                 }
             }
             finally

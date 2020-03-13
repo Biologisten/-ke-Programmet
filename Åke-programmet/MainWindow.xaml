@@ -41,7 +41,7 @@
                 <TextBox x:Name="J4_b" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0" HorizontalContentAlignment="Center" />
             </StackPanel>
             <StackPanel Margin="10 10 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
-                <Label Background="#FF6C7A89" Content="Nyansering 1" Width="120" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0"/>
+                <Label Background="#FF6C7A89" Content="Nyansering 1" Width="120" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="Nyansering 2" Width="120" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="Nyansering 3" Width="120" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="Nyansering 4" Width="120" HorizontalContentAlignment="Center" BorderThickness="0" />
@@ -57,7 +57,7 @@
                 <TextBox x:Name="N4_b" Padding="4" Height="26" Width="60" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
             </StackPanel>
             <StackPanel Margin="10 10 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
-                <Label Background="#FF6C7A89" Content="DENSITET" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" Width="64"/>
+                <Label Background="#FF6C7A89" Content="DENSITET" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" Width="64" />
                 <Label Background="#FF6C7A89" Content="UTG-DENS" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" Width="70" />
                 <Label Background="#FF6C7A89" Content="CoP/DIN" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" Width="64" />
                 <Label Background="#FF6C7A89" Content="UT-CoP" HorizontalContentAlignment="Center" BorderThickness="0,0,1,0" Width="64" />
@@ -78,11 +78,11 @@
             </StackPanel>
             <StackPanel Margin="10 10 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
                 <Label Background="#FF6C7A89" Content="UT-PH" HorizontalContentAlignment="Center" BorderThickness="0" Width="64" />
-                <Label Background="#FF6C7A89" Content="ROT" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0"/>
+                <Label Background="#FF6C7A89" Content="ROT" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="UTG-ROT" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="GL 60*" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="UGL 60*" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
-                <Label Background="#FF6C7A89" Content="DE" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0"/>
+                <Label Background="#FF6C7A89" Content="DE" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="DL" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="DA" HorizontalContentAlignment="Center" Width="64" BorderThickness="0" />
             </StackPanel>
@@ -91,7 +91,7 @@
                 <TextBox x:Name="ROT" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
                 <TextBox x:Name="UTG_ROT" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
                 <TextBox x:Name="GL60" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="UGL60" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center"/>
+                <TextBox x:Name="UGL60" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
                 <TextBox x:Name="DE" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
                 <TextBox x:Name="DL" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
                 <TextBox x:Name="DA" Padding="4" Height="26" Width="64" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
@@ -100,7 +100,7 @@
                 <Label Background="#FF6C7A89" Content="DB" HorizontalContentAlignment="Center" Width="72" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="FST" HorizontalContentAlignment="Center" Width="72" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="U-FST" HorizontalContentAlignment="Center" Width="72" BorderThickness="0,0,1,0" />
-                <Label Background="#FF6C7A89" Content="BORT" HorizontalContentAlignment="Center" Width="72" BorderThickness="0,0,1,0"/>
+                <Label Background="#FF6C7A89" Content="BORT" HorizontalContentAlignment="Center" Width="72" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="UTSKRDAT" HorizontalContentAlignment="Center" Width="72" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="STARTDAT" HorizontalContentAlignment="Center" Width="72" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="GODKDAT" HorizontalContentAlignment="Center" Width="72" BorderThickness="0" />
@@ -118,7 +118,7 @@
                 <Label Background="#FF6C7A89" Content="TAPPDAT" HorizontalContentAlignment="Center" Width="72" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="REC VIKT" HorizontalContentAlignment="Center" Width="72" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="SATS VIKT" HorizontalContentAlignment="Center" Width="72" BorderThickness="0,0,1,0" />
-                <Label Background="#FF6C7A89" Content="SATS VOL" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0"/>
+                <Label Background="#FF6C7A89" Content="SATS VOL" HorizontalContentAlignment="Center" Width="64" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="TAPP VIKT" HorizontalContentAlignment="Center" Width="92" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="TAPP VOL" HorizontalContentAlignment="Center" Width="80" BorderThickness="0,0,1,0" />
                 <Label Background="#FF6C7A89" Content="UTBYTE" HorizontalContentAlignment="Center" Width="86" />
@@ -161,7 +161,7 @@
             <StackPanel Margin="10 0 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
                 <TextBox x:Name="ANMÄRKNING"  Padding="4" Height="26" Width="152" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" Margin="0,0,1,0" />
                 <ComboBox x:Name="KOD_BOK" Width="152">
-                    <ComboBoxItem Content=""/>
+                    <ComboBoxItem Content="" />
                 </ComboBox>
             </StackPanel>
         </StackPanel>
@@ -175,18 +175,18 @@
                             <Setter Property="Foreground" Value="Black" />
                         </Style>
                     </GridView.ColumnHeaderContainerStyle>
-                    <GridViewColumn Header="Sats #" Width="61" DisplayMemberBinding="{Binding Satnum}"  />
-                    <GridViewColumn Header="Ver" Width="61" DisplayMemberBinding="{Binding Ver}"  />
-                    <GridViewColumn Header="Status" Width="61" DisplayMemberBinding="{Binding Status}"  />
+                    <GridViewColumn Header="Sats #" Width="61" DisplayMemberBinding="{Binding Satnum}" />
+                    <GridViewColumn Header="Ver" Width="61" DisplayMemberBinding="{Binding Ver}" />
+                    <GridViewColumn Header="Status" Width="61" DisplayMemberBinding="{Binding Status}" />
                 </GridView>
             </ListView.View>
         </ListView>
         <TextBox x:Name="ID_Search" Padding="4" Height="26" Background="#FFD2D7D3" BorderThickness="0,0,1,0" KeyUp="SATSNUM_KeyUp" Margin="0,51,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="190" />
-        <Label Content="Recept ID" Margin="0,10,10,0" FontSize="16" Foreground="#FFC9C9C9" Height="36" VerticalAlignment="Top" HorizontalAlignment="Right" Width="190"/>
-        <Button Content="Sök recept" Margin="0,97,49,0" VerticalAlignment="Top" Height="32" HorizontalAlignment="Right" Width="111" Click="Search_recipe"/>
-        <Button Content="Rensa" HorizontalAlignment="Left" Margin="178,0,0,22" Width="115" Height="32" VerticalAlignment="Bottom" FontSize="18" Click="Clear"/>
+        <Label Content="Recept ID" Margin="0,10,10,0" FontSize="16" Foreground="#FFC9C9C9" Height="36" VerticalAlignment="Top" HorizontalAlignment="Right" Width="190" />
+        <Button Content="Sök recept" Margin="0,97,49,0" VerticalAlignment="Top" Height="32" HorizontalAlignment="Right" Width="111" Click="Search_recipe" />
+        <Button Content="Rensa" HorizontalAlignment="Left" Margin="178,0,0,22" Width="115" Height="32" VerticalAlignment="Bottom" FontSize="18" Click="Clear" />
         <Button Content="Skriv ut" HorizontalAlignment="Left" Margin="10,0,0,22" Width="115" Height="32" FontSize="18" VerticalAlignment="Bottom" Click="Print" />
         <Button Content="Etikett" HorizontalAlignment="Left" Margin="547,0,0,22" Width="115" Height="32" FontSize="18" VerticalAlignment="Bottom" />
-        <Button Content="Avsluta" HorizontalAlignment="Left" Margin="704,0,0,22" Width="116" Height="32" FontSize="18" VerticalAlignment="Bottom" Click="Quit"/>
+        <Button Content="Avsluta" HorizontalAlignment="Left" Margin="704,0,0,22" Width="116" Height="32" FontSize="18" VerticalAlignment="Bottom" Click="Quit" />
     </Grid>
 </Window>
