@@ -8,9 +8,9 @@ namespace Åke_programmet.Library
         public List<Data> DBlist = new List<Data>();
         private readonly List<User> DBids = new List<User>();
 
-        private MySqlConnectionStringBuilder Builder = new MySqlConnectionStringBuilder
+        private readonly MySqlConnectionStringBuilder Builder = new MySqlConnectionStringBuilder
         {
-            Server = "10.80.32.227",
+            Server = "localhost",
             UserID = "root",
             Password = "",
             Database = "åkedb"

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Windows.Documents;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -296,6 +297,23 @@ namespace Åke_programmet
             }
             else
             {
+                //Do nothing
+            }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            PrintDialog printDialog = new PrintDialog();
+            if (printDialog.ShowDialog().GetValueOrDefault())
+            {
+                FlowDocument flowDocument = new FlowDocument();
+                Paragraph myParagraph = new Paragraph();
+                myParagraph.Margin = new Thickness(0);
+                myParagraph.Inlines.Add(new Run("SATSNUM: " + SATSNUM.Text));
+                flowDocument.Blocks.Add(myParagraph);
+
+                DocumentPaginator paginator = ((IDocumentPaginatorSource)flowDocument).DocumentPaginator;
+                printDialog.PrintDocument(paginator, Title);
             }
         }
     }
