@@ -9,16 +9,16 @@
     <Grid>
         <StackPanel>
             <StackPanel Margin="10,10,0,0" Orientation="Horizontal" HorizontalAlignment="Left">
-                <Label Background="#FF6C7A89" Content="SATSNUM" Foreground="Black" BorderThickness="0,0,1,0" />
-                <Label Background="#FF6C7A89" Content="PRODUKTNAMN" BorderThickness="0,0,1,0" Width="102" />
+                <Label Background="#FF6C7A89" Content="SATSNUM" Foreground="Black" BorderThickness="0,0,1,0" Width="108" />
+                <Label Background="#FF6C7A89" Content="PRODUKTNAMN" BorderThickness="0,0,1,0" Width="134" />
                 <Label Background="#FF6C7A89" Content="PRODUKTNUMMER" BorderThickness="0,0,1,0" Width="118" />
                 <Label Background="#FF6C7A89" Content="KULÖR" BorderThickness="0,0,1,0" Width="50" />
                 <Label Background="#FF6C7A89" Content="SAPNUM" BorderThickness="0,0,1,0" Width="62" />
                 <Label Background="#FF6C7A89" Content="SAPSATSNUMMER" BorderThickness="0" Width="112" />
             </StackPanel>
             <StackPanel Margin="10 -1 0 0" Orientation="Horizontal" HorizontalAlignment="Left">
-                <TextBox x:Name="SATSNUM" Padding="4" Height="26" Width="65" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
-                <TextBox x:Name="PRODUKTNAMN" Padding="4" Height="26" Width="102" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="SATSNUM" Padding="4" Height="26" Width="108" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
+                <TextBox x:Name="PRODUKTNAMN" Padding="4" Height="26" Width="134" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
                 <TextBox x:Name="PRODUKTNUMMER" Padding="4" Height="26" Width="118" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
                 <TextBox x:Name="KULÖR" Padding="4" Height="26" Width="50" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />
                 <TextBox x:Name="SAPNUM" Padding="4" Height="26" Width="62" Background="#FFD2D7D3" BorderThickness="0,0,1,0" HorizontalContentAlignment="Center" />

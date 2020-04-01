@@ -309,7 +309,19 @@ namespace Åke_programmet
                 FlowDocument flowDocument = new FlowDocument();
                 Paragraph myParagraph = new Paragraph();
                 myParagraph.Margin = new Thickness(0);
-                myParagraph.Inlines.Add(new Run("SATSNUM: " + SATSNUM.Text));
+                myParagraph.Inlines.Add(new Run("GODKÄND!"));
+                flowDocument.Blocks.Add(myParagraph);
+                myParagraph = new Paragraph();
+                myParagraph.Inlines.Add(new Run("Benämning: " + PRODUKTNAMN.Text));
+                flowDocument.Blocks.Add(myParagraph);
+                myParagraph = new Paragraph();
+                myParagraph.Inlines.Add(new Run("Kulör: " + KULÖR.Text));
+                flowDocument.Blocks.Add(myParagraph);
+                myParagraph = new Paragraph();
+                myParagraph.Inlines.Add(new Run("SAP.Nr: " + SAPNUM.Text));
+                flowDocument.Blocks.Add(myParagraph);
+                myParagraph = new Paragraph();
+                myParagraph.Inlines.Add(new Run("SATS.Nr: " + SATSNUM.Text));
                 flowDocument.Blocks.Add(myParagraph);
 
                 DocumentPaginator paginator = ((IDocumentPaginatorSource)flowDocument).DocumentPaginator;
